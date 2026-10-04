@@ -1,6 +1,5 @@
 public class Subject {
- 
-    private String name;
+      private String name;
 
  
     public Subject(String name) {
@@ -19,4 +18,5 @@ public class Subject {
     public String toString() {
         return  " " + name;
     }
+    
 }

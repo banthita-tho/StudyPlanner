@@ -1,6 +1,5 @@
-
 public class Task {
- 
+  
     private String title;
     private String description;
     private Subject subject;
@@ -76,3 +75,5 @@ public class Task {
         return "[" + status + "] " + title + " (" + subject.getName() + ") - due " + deadline;
     }
 }
+    
+
